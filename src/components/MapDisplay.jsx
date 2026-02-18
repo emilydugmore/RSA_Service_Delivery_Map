@@ -10,7 +10,7 @@ export default function MapDisplay(props) {
 
 // I found that this was a better way to load the data (instead of importing it)
   useEffect(() => {
-    fetch('simple_municipal_service_delivery_2022.json') 
+    fetch('https://emilydugmore.github.io/RSA_Service_Delivery_Map/simple_municipal_service_delivery_2022.json') 
       .then(res => res.json())
       .then(data => setGeoData(data))
       .catch(err => console.error("Error loading map:", err));
