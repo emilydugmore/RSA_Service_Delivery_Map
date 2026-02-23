@@ -65,13 +65,7 @@ export default function ServicesInfoModal({ setIsModalOpen }) {
               <strong>No internet access</strong>: Households with no access to internet services (both at a household and community level)
             </p>
           </section>
-
-          <section className="space-y-2">
-            <p>
-              <strong>Adult/child hunger</strong>: Households where an adult/child in the household ‘often’ or ‘always’ went hungry because there wasn’t enough food.
-            </p>
-          </section>
-          
+       
         </div>
       </div>
     </div>

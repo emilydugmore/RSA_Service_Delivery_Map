@@ -113,12 +113,6 @@ export default function ToolTip({ feature }) {
       <div className="space-y-2 mb-3 border-t-2 border-gray-100 pt-3">
         <TooltipRow label="No internet access" value={p.pct_internet_none} />
       </div>
-
-      {/* 5. Hunger */}
-      <div className="space-y-2 border-t-2 border-gray-100 pt-3">
-        <TooltipRow label="Adult Hunger" value={p.pct_adult_hunger} />
-        <TooltipRow label="Child Hunger" value={p.pct_child_hunger} />
-      </div>
     </div>
   );
 }
